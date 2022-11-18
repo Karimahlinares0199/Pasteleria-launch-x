@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Pasteleria Sweet spark</title>
+</head>
+<body class="cuerpo">
+
+    <header class="header">
+        <div class="container_header">
+            <div class="logo">
+                <img class="img_logo" src="./img/logo pasteleria original 1.png" alt="logo pasteleria">
+            </div>
+            <div class="container_nav">
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#sabor_pastel">Pasteles</a></li>
+                        <li><a href="#decoracion_pastel">Decoraciones</a></li>
+                        <li><a href="#ubicacion">Ubicación</a></li>
+                        <li><a href="#pedidos">Pedidos</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+
+    <div class="container_all">
+        <div class="cover">
+
+            <!--INICIO WAVE-->
+
+                <div class="bg_color"></div>
+                <div class="wave"></div>
+                
+            <!--FINAL WAVE-->
+
+            <div class="container_cover">
+                <div class="container_info">
+                    <h1>Sweet spark</h1>
+                    <p>¡Tenemos lo que buscas, pero mucho mejor!</p>
+                    <p>Nuestras mejores entregas de dulce para tu paladar las tenemos aquí, ahora ubicados en Barquisimeto. Contamos con una variedad de sabores que te dejarán pidiendo otro pastel más. ¡Comparte con tus amigos o familiares en nuestros espacios divertidos y cómodos!</p>
+                </div>
+                <div class="container_vector">
+                    <div class="container__vector">
+                        <img src="./img/pastel png.png" alt="imagen pastel">
+                    </div>
+                </div>
+            </div>
+        </div>   
+    
+    <section class="sabor_pastel" id="sabor_pastel">
+            <h2 class="sab1" id="sab1">Sabor de pasteles</h2>
+            
+            <div class="slider1">
+                <ul>
+                    <li>
+                       <img src="./img/slider 1.png" alt=""> 
+                    </li>
+                    <li>
+                        <img src="./img/slider 2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./img/slider 3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="./img/slider 4.png" alt="">
+                    </li>
+                </ul>
+                    
+            </div>
+
+    </section> 
+    
+    <section class="decoracion_pastel" id="decoracion_pastel">
+            <h2 class="sab2">Decoraciones</h2>
+            
+            <div class="slider2" id="slider2">
+                <ul>
+                    <li>
+                        <p>Top de Chocolate</p>
+                       <img src="./img/top chocolate.png" alt=""> 
+                    </li>
+                    <li>
+                        <p>Top de Fresa</p>
+                        <img src="./img/top fresa.png" alt="">
+                    </li>
+                    <li>
+                        <p>Top de Maní</p>
+                        <img src="./img/top mani.png" alt="">
+                    </li>
+                    <li>
+                        <p>Top de Chispas de colores</p>
+                        <img src="./img/chispas colores.png"  alt="">
+                    </li>
+                </ul>
+                    
+            </div>
+            
+    </section>
+
+    <section class="ubicacion" id="ubicacion">
+            <h2 class="sab3">Ubicación</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5243.844581625818!2d-69.29331061712152!3d10.062603041411519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e876762c97e57bd%3A0x886ea77137771687!2sCentro%20Comercial%20Churun%20Meru%2C%20Barquisimeto%203001%2C%20Lara!5e0!3m2!1ses!2sve!4v1668531109328!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="pedidos" id="pedidos">
+            <h2 class="sab4">Pedidos</h2>
+            <h3>Haz tu pedido aquí</h3> 
+
+            <form action="">
+            
+                <p>¿De qué sabor quieres?</p>
+                <p>¡Puedes escoger dos sabores y combinarlos a tu gusto!</p>
+            
+                    <div class="tipo_pastel">
+                        <input type="checkbox" id="vainilla" name="vainilla" value="vainilla">
+                        <label for="bistec">Vainilla</label>
+                        <br><br>
+                        
+                        <input type="checkbox" id="chocolate" name="chocolate" value="chocolate">
+                        <label for="chocolate">Chocolate</label>
+                        <br><br>
+
+                        <input type="checkbox" id="terciopelo" name="terciopelo" value="terciopelo">
+                        <label for="terciopelo">Terciopelo rojo</label>
+                        <br><br>
+
+                        <input type="checkbox" id="brownie" name="brownie" value="brownie">
+                        <label for="brownie">Brownie</label>
+                        <br><br>
+
+                        <input type="number" id="pedidonumber" class="pedidonumber" placeholder="¿Cuántos?">
+                    </div>
+
+                <div>
+                    <h3>Decoraciones</h3>
+                    
+                        <div class="cremas" >  
+                            <h4>Cremas</h4>
+                            <input type="checkbox" id="merengue" name="merengue" value="merengue">
+                            <label for="merengue">Merengue</label>
+
+                            <br><br>
+                            <input type="checkbox" id="cremamantequilla" name="cremamantequilla" value="cremamantequilla">
+                            <label for="cremamantequilla">Crema de mantequilla</label>
+                        </div>
+                                
+                        <div class="tipo_decoracion">
+                            <h4>Decoración</h4>
+                            <input type="checkbox" id="topfresa" name="topfresa" value="topfresa">
+                            <label for="topfresa">Fresa</label>
+                            <br><br>
+                            
+                            <input type="checkbox" id="topchocolate" name="topchocolate" value="topchocolate">
+                            <label for="topchocolate">Chocolate</label>
+                            <br><br>
+            
+                            <input type="checkbox" id="topmani" name="topmani" value="topmani">
+                            <label for="topmani">Maní</label>
+                            <br><br>
+            
+                            <input type="checkbox" id="topchispas" name="topchispas" value="topchispas">
+                            <label for="topchispas">Chispas de colores</label>
+                            <br><br>               
+                        </div>
+                
+                </div>
+
+                        <div class="datos_cliente">
+                            <br><br>
+                            <h3>Datos del cliente:</h3>
+                        
+                            <label for="nombre">Nombre:</label><br>
+                            <input type="text" id="nombre" name="nombre" placeholder="¿Cómo te llamas?">
+                            <br><br>
+                                    
+                            <label for="telefono">Teléfono:</label><br>
+                            <input type="number" id="telefono" name="telefono" placeholder="¿Cuál es tu teléfono?">
+                            <br><br>
+
+                            <label for="direccion">Dirección:</label><br>
+                            <input type="text" id="direccion" name="direccion" placeholder="¿A dónde lo enviamos?">
+                            <br><br>
+
+                            <label for="correo">Correo electrónico:</label><br>
+                            <input type="text" id="correo" name="correo" placeholder="¿Cuál es tu email?">
+                            <br><br>
+
+                            <button type="submit">Enviar pedido</button>
+                        </div>
+                </div>
+            </form>
+        </section>
+
+        <footer class="footer">
+
+            <div class="wrap-footer">
+              <div class="text-element-footer element-footer">
+              <h3 class="main-c">Sweet spark</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, blanditiis hic quaerat nesciunt, labore eligendi consequatur voluptas dolores earum soluta tenetur iure officia error accusamus?</p>
+              </div>
+              <div class="text-element-footer element-footer">
+                <h5>Dirección</h5>
+                <ul>
+                  <li>Av. Nueva Segovia calle 8 </li>
+                  <li>Barquisimeto - 3001</li>
+                  <li>Contacto: (+58) 0412 567 4572</li>
+                  <li>FIjo: (+58) 0251 254 5681</li>
+                </ul>
+                <div class="footer-creds">
+                    <div class="copy-creds">
+                    <p>©2022 · Todos los derechos reservados.</p>
+                    </div>
+              </div>
+
+
+
+
+
+</body>
+</html>
